@@ -1,3 +1,9 @@
 div {
-    Background-color: cyan
+    Background-color: cyan;
+    margin: 12px;
+    border: 10px dotted yellow;
+    padding: 100px;
+}
+.myFirstClass {
+    background-color: orange;
 }
