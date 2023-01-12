@@ -2,7 +2,7 @@
     float: right;
     background-color: rgb(243, 243, 243);
     text-align: center;
-    padding: 20px;
+    padding: 5px 10px;
     border: solid 1px;
 }
 .sideBarMenu{
@@ -12,4 +12,10 @@
 }
 #blue{
     font-weight: bold;
+}
+#h3{
+    padding: -10px;
+}
+.bodyParagraph{
+    padding: 5px;
 }
