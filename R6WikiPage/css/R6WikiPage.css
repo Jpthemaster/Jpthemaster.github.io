@@ -1,4 +1,15 @@
 #sidebar {
     float: right;
-    background-color: darkgray;
+    background-color: rgb(243, 243, 243);
+    text-align: center;
+    padding: 20px;
+    border: solid 1px;
+}
+.sideBarMenu{
+    color: Blue;
+    text-align: left;
+    padding-bottom: 10px
+}
+#blue{
+    font-weight: bold;
 }
