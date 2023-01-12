@@ -1,6 +1,25 @@
 #p1 {
     color: aqua;
+    font-family:'Courier New', Courier, monospace;
+    font-family: 'Press Start 2P', cursive;
+    @import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&display=swap');
+
 }
 #p2 {
-    color: rgba 1 2 3 .5
+    color: #7fbd34;
+    font-family: 'Rubik 80s Fade', cursive;
+}
+#p3 {
+    color: rgba(0, 0, 255, 0.5);
+}
+#p4 {
+    font-weight: bold;
+    text-decoration: underline
+}
+#p5 {
+    font-style:italic;
+    text-decoration: line-through;
+}
+#p6 {
+    text-decoration: underline lime;
 }
