@@ -28,3 +28,16 @@
 .bodyParagraph{
     padding: 5px;
 }
+#rightFloat{
+    float: right;
+    background-color: rgb(243, 243, 243);
+    border: solid 1px;
+}
+#leftFloat{
+    float: left;
+    background-color: rgb(243, 243, 243);
+    border: solid 1px;
+}
+#right {
+    width: 200px
+}
