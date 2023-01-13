@@ -10,8 +10,9 @@
     background-color: rgb(243, 243, 243);
     border: solid 1px;
 }
-
-h3 contents
+#contentsH{
+    text-align:center;
+}
 
 .sideBarMenu{
     color: Blue;
