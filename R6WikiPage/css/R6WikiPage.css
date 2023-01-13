@@ -5,6 +5,12 @@
     padding: 5px 10px;
     border: solid 1px;
 }
+#contents {
+    margin-right:1050px;
+    background-color: rgb(243, 243, 243);
+    border: solid 1px;
+}
+h3
 .sideBarMenu{
     color: Blue;
     text-align: left;
