@@ -1,0 +1,18 @@
+Body{
+    font-family: sans-serif
+}
+header {
+    Background-color: salmon;
+    Border-Bottom: 2px solid grey;
+    color: white; 
+    padding: 48px 36px 36px 36px
+}
+header h1{
+    font-size: 48px;
+    Margin: 60px,0px;
+    text-align: center;
+}
+header a{
+    color: white;
+    margin: 6px;
+}
