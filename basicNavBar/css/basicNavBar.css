@@ -11,3 +11,6 @@ nav{
 main{
     height: 1500px;
 }
+li.active a {
+    color: red;
+}
