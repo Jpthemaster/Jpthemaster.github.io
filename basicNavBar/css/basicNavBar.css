@@ -3,5 +3,11 @@ li {
     padding: 10px;
 }
 nav{
-    background-color:aquamarine;
+    background-color:orange;
+    position: sticky;
+    top: 0px;
+    Margin-top:100px
+}
+main{
+    height: 1500px;
 }
