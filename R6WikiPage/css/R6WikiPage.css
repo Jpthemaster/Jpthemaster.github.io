@@ -42,5 +42,29 @@
     margin-right:10px;
 }
 #right {
-    width: 200px
+    width: 200px;
+    display: flex;
+    Margin: 12px;
+}
+
+
+.sideBySide {
+    Display: flex;
+    text-align: center;
+}
+.sideBySide span{
+    text-align: left;
+}
+.sideBySide span:first-child {
+    font-weight: bold;
+    width: 100px
+}
+/* .sideBySide span:last-child {
+    font-weight: 30;
+    color: pink;
+} */
+
+.sideBySide span:nth-child(2) {
+    font-weight: 200;
+    color: pink;
 }
