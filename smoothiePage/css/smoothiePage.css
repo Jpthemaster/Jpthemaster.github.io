@@ -1,3 +1,30 @@
-li {
-    display: inline-block;
+nav a.navBar {
+    color: pink;
+}
+nav > ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0px;
+}
+nav > ul > li {
+    padding: 12px;
+    background-color:antiquewhite
+}
+nav > ul > li .dropMenu:hover {
+    color:aqua
+}
+.dropDown :hover ul{
+    display: flex;
+    color: black;
+}
+.dropDown ul {
+    display: none;
+    list-style-type: none;
+    position: relative;
+    flex-direction: column;
+    background-color: wheat
+}
+.dropMenu {
+    color:blue
 }
