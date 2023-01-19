@@ -14,12 +14,9 @@ nav > ul > li {
 nav > ul > li .dropMenu:hover {
     color:aqua
 }
-.dropDown :hover ul{
-    display: flex;
-    color: black;
-}
+
 .dropDown ul {
-    display: none;
+    display: flex;
     list-style-type: none;
     position: relative;
     flex-direction: column;
