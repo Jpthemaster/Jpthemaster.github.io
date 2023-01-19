@@ -30,7 +30,7 @@ nav > ul > li .dropMenu:hover {
     left:0px;
     top: 100%;
 }
-.dropDown a:hover ul {
+.dropDown:hover ul {
     display:flex;
 }
 .dropDown ul li {
