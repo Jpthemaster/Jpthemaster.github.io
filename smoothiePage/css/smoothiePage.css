@@ -2,7 +2,7 @@ nav {
 background-color: antiquewhite;
 }
 nav a.navBar {
-    color: pink;
+    color: rgb(215, 87, 109);
 }
 nav > ul {
     display: flex;
