@@ -1,27 +1,43 @@
+nav {
+background-color: antiquewhite;
+}
 nav a.navBar {
     color: pink;
 }
 nav > ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     list-style-type: none;
     padding: 0px;
 }
 nav > ul > li {
     padding: 12px;
-    background-color:antiquewhite
+    background-color:antiquewhite;
 }
 nav > ul > li .dropMenu:hover {
-    color:aqua
+    color:aqua;
 }
-
-.dropDown ul {
-    display: flex;
-    list-style-type: none;
+.dropDown {
     position: relative;
+}
+.dropDown ul {
+    display: none;
     flex-direction: column;
-    background-color: wheat
+    list-style-type: none;
+    padding:0px;
+    background-color: wheat;
+    position: absolute;
+    left:0px;
+    Top: 100%;
+}
+.dropdown:hover ul {
+    display:flex;
+}
+.dropDown ul li {
+    background-color: blue;
+    padding: 12px;
+    width: 150px;
 }
 .dropMenu {
-    color:blue
+    color:blue;
 }
