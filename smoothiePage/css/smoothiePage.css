@@ -28,9 +28,9 @@ nav > ul > li .dropMenu:hover {
     background-color: wheat;
     position: absolute;
     left:0px;
-    Top: 100%;
+    top: 100%;
 }
-.dropdown:hover ul {
+.dropDown a:hover ul {
     display:flex;
 }
 .dropDown ul li {
