@@ -97,10 +97,11 @@ nav > ul > li .dropMenu:hover {
     max-width: 800px;
 }
 .shopText {
-
+    flex: 2;
 }
 .shopImage {
-    flex:1
+    flex:1;
+    width: 200px;
 }
 
 
