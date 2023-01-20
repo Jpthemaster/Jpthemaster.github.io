@@ -80,8 +80,11 @@ nav > ul > li .dropMenu:hover {
     align-items: center;
     margin: 24px;
 }
-.contactImage {
-
+.contactImage1 {
+    width: 100%;
+    object-fit: cover;
+    max-height: 500px;
+    object-position: 25%;
 }
 .contactText {
     margin: 24px;
@@ -90,13 +93,14 @@ nav > ul > li .dropMenu:hover {
 .shopPage1 {
     display: flex;
     align-items: center;
-    margin: 24px;
+    margin: 24px auto;
+    max-width: 800px;
 }
-.shop text {
+.shopText {
 
 }
 .shopImage {
-
+    flex:1
 }
 
 
