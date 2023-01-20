@@ -69,12 +69,35 @@ nav > ul > li .dropMenu:hover {
     flex: 2;
     margin: 24px
 }
-.homeImage img{
+.homeImage img {
     width: 100%;
     border-radius: 10%;
     border: solid black 5px;
 }
 
+.contactPage1 {
+    display:flex;
+    align-items: center;
+    margin: 24px;
+}
+.contactImage {
+
+}
+.contactText {
+    margin: 24px;
+}
+
+.shopPage1 {
+    display: flex;
+    align-items: center;
+    margin: 24px;
+}
+.shop text {
+
+}
+.shopImage {
+
+}
 
 
 
