@@ -1,3 +1,10 @@
+body {
+    background-color:rgba(255, 196, 206, 0.549)
+}
+h1{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
 nav {
 background-color: antiquewhite;
 }
@@ -13,6 +20,7 @@ nav > ul {
 nav > ul > li {
     padding: 12px;
     background-color:antiquewhite;
+    transition: background-color, white;
 }
 nav > ul > li .dropMenu:hover {
     color:aqua;
@@ -21,17 +29,24 @@ nav > ul > li .dropMenu:hover {
     position: relative;
 }
 .dropDown ul {
-    display: none;
     flex-direction: column;
     list-style-type: none;
     padding:0px;
     background-color: wheat;
     position: absolute;
     left:0px;
-    top: 100%;
+    top: 75%;
+    opacity: 0;
+    visibility: hidden;
+    transition:
+        opacity 0.5
+        visibility 0.5,
+        top 0.5;
 }
 .dropDown:hover ul {
-    display:flex;
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
 }
 .dropDown ul li {
     background-color: powderblue;
@@ -40,4 +55,41 @@ nav > ul > li .dropMenu:hover {
 }
 .dropMenu {
     color:blue;
+}
+
+.homePage1 {
+    display: flex;
+    margin: 24px;
+    align-items: center;
+}
+.homeImage {
+    flex: 1;
+}
+.homeText {
+    flex: 2;
+    margin: 24px
+}
+.homeImage img{
+    width: 100%;
+    border-radius: 10%;
+    border: solid black 5px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    nav > ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .dropDown:hover ul{
+        opacity: 0;
+        visibility: hidden;
+    }
+    .homePage1 {
+        flex-direction: column;
+    }
 }
