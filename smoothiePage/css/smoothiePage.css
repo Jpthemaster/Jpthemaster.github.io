@@ -97,20 +97,16 @@ nav > ul > li .dropMenu:hover {
 
 .contactPage1 {
     display:flex;
-    margin: 0 24px;
+    margin: 0 36px;
     align-items: flex-end;
 }
 .contactImage {
-    /* width: 100%;
-    object-fit: cover;
-    max-height: 500px;
-    object-position: 25%; */
     order: 2;
+    padding-bottom: 12px;
 }
 .contactText {
-    margin: 0 36px;
+    padding-right: 36px;
     order: 1;
-
 }
 
 .shopPage1 {
