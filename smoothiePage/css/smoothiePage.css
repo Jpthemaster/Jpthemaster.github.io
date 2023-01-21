@@ -3,11 +3,24 @@ body {
 }
 h1{
     text-align: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 72px 48px;
+}
+#homeFront img {
+    width: 100%;
+    object-fit: cover;
+    max-height: 800px;
+    object-position: 25%;
 }
 nav {
-background-color: antiquewhite;
+    background-color: antiquewhite;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    top:0;
+    padding-bottom: 12px;
 }
+
 nav a.navBar {
     color: rgb(215, 87, 109);
 }
