@@ -26,7 +26,7 @@ nav a.navBar {
     color: rgb(215, 87, 109);
     font-family:'Kolker Brush', cursive;
     @import url ('https://fonts.googleapis.com/css2?family=Kolker+Brush&display=swap');
-    font-size: 32px;
+    font-size: 30px;
     list-style-type: none;
 }
 nav > ul {
@@ -74,7 +74,7 @@ nav > ul > li .dropMenu:hover {
 .dropMenu {
     color:blue;
     font-family:'Kolker Brush', cursive;
-    font-size: 28px
+    font-size: 26px
 }
 
 .homePage1 {
