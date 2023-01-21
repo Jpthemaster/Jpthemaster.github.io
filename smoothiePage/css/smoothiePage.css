@@ -12,7 +12,6 @@ h1{
     width: 100%;
     object-fit: cover;
     max-height: 800px;
-    object-position: 25%;
 }
 nav {
     background-color: antiquewhite;
