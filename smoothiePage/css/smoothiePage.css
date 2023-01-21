@@ -19,6 +19,7 @@ nav {
     height: 60px;
     top:0;
     padding-bottom: 12px;
+    margin-left: 0%;
 }
 
 nav a.navBar {
@@ -29,6 +30,7 @@ nav > ul {
     justify-content: center;
     list-style-type: none;
     padding: 0px;
+    margin-left: 0%;
 }
 nav > ul > li {
     padding: 12px;
@@ -76,7 +78,7 @@ nav > ul > li .dropMenu:hover {
     align-items: center;
 }
 .homeImage {
-    flex: 1;
+    flex: 2;
 }
 .homeText {
     flex: 2;
