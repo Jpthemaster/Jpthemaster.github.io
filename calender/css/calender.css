@@ -1,0 +1,40 @@
+table {
+    border-collapse:collapse;
+    border: 3px solid black;
+    box-shadow: 0px 0px 4px 8px rgba(0,0,0,0.1);
+    border-radius: 12px 12px 0px 0px;
+    margin: 24px;
+}
+td,
+th {
+    padding: 24px;
+    text-align: center;
+    border-bottom: 0.5px solid black;
+}
+colgroup col:nth-child(odd) {
+    background-color:rgba(255, 213, 220, 0.25);
+}
+colgroup col:last-child {
+    background-color:rgba(255, 213, 220, 1);
+}
+colgroup col:first-child {
+    background-color:rgba(255, 213, 220, 1);
+}
+thead {
+    background-color: rgba(250, 78, 78, 0.741);
+    color: white;
+    border: 3px solid black;
+}
+.blank {
+    background-color: white;
+}
+.exception1 {
+    border-right: 1px solid rgb(241, 241, 241);
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+}
+.exception {
+    border-left: 1px solid rgb(241, 241, 241);
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+}
