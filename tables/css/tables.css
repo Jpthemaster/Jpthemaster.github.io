@@ -1,0 +1,21 @@
+table {
+    border: 1px solid Black;
+}
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 12px
+}
+thead tr {
+    background-color: pink;
+}
+#Deez {
+    background-color:aquamarine;
+}
+tbody tr:first-child {
+    background-color:azure;
+}
+colgroup col:first-child {
+    background-color:bisque;
+}
