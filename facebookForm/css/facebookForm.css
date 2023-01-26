@@ -37,7 +37,8 @@ header img {
 
 input[type=text],
 input[type=date],
-select {
+select,
+#genderInputs > div {
     padding: 8px;
     margin:4px;
     border: 2px solid #dddddd;
@@ -81,4 +82,18 @@ select {
 }
 #titleBDayPublic input[type=checkbox] {
     margin: 16px 0px 16px 8px;
+}
+
+#genderRadio {
+    margin: 12px;
+    text-align: left;
+}
+
+#genderInputs {
+    display:flex;
+}
+#genderInputs > div {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
 }
