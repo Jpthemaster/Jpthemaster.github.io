@@ -38,10 +38,17 @@ form textarea {
 }
 
 form input[type=submit] {
-    background-color: #2c8cff;
+    background-color: cyan;
+    color:black;
     border: 0;
     border-radius: 4xpx;
-    color: white;
+    padding: 16px 24px;
+}
+form input[type=submit]:hover {
+    background-color: rgb(0, 147, 147);
+    color:white;
+    border: 0;
+    border-radius: 4xpx;
     padding: 16px 24px;
 }
 

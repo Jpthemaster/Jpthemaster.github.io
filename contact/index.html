@@ -20,7 +20,7 @@
             <div id="fillOut">
                 <form>
                     <label> What can we help you with?</label>
-                    <select name="questiontype" placeholder="How can we help?">
+                    <select name="questiontype">
                             <option value="" disabled selected>How can we help?</option>
                             <option value="commission">Money</option>
                             <option value="carWarranty">Want to extend my cars warranty</option>
@@ -29,11 +29,28 @@
                             <option value="adRemoval">Need a break from the ads</option>
                     </select>
                     <label>Name</label>
-                    <input type="text" name="name">
+                         <input type="text" name="name">
                     <label>Email</label>
-                    <input type="text" name="email">
+                        <input type="text" name="email">
                     <label>Message</label>
-                    <textarea name="message" placeholder="Type here..."></textarea>
+                        <textarea name="message" placeholder="Type here..."></textarea>
+                    <label> Urgency?</label>
+                        <select name="questiontype">
+                                <option value="" disabled selected>!!</option>
+                                <option value="vFast">ASAP</option>
+                                <option value="slow">Business Days</option>
+                                <option value="vSlow">Take your time</option>
+                                <option value="fast">Help</option>
+                                <option value="fast"> </option>
+                        </select>
+                    <label>Company</label>
+                        <select name="questiontype">
+                            <option value="" disable selected>What company do you represent?</option>
+                            <option value="van">Vans</option>
+                            <option value="nike">Nike</option>
+                            <option value="adidas">Adidas</option>
+                            <option value="puma">Puma</option>
+                        </select>
                     <input type="submit" name="send" value="send">
                 </form>
             </div>
