@@ -31,3 +31,54 @@ header img {
     box-shadow: 0px 0px 16px #cccccc;
     text-align: center;
 }
+#fillOutHead {
+    border-bottom: 2px solid #dddddd
+}
+
+input[type=text],
+input[type=date],
+select {
+    padding: 8px;
+    margin:4px;
+    border: 2px solid #dddddd;
+    border-radius: 4px;
+}
+
+#textInput {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 12px;
+}
+#firstName,
+#lastName {
+    flex:1;
+}
+#phoneORemail,
+#password {
+    width: 100%;
+}
+#titleBDayPublic {
+    display: flex;
+    margin: 12px;
+}
+
+#titleBDayPublic > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex: 1;
+    margin-right: 8px;
+}
+#titleBDayPublic select,
+#titleBDayPublic input[type=date] {
+    width: 100%;
+}
+#titleBDayPublic > div label{
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+#titleBDayPublic input[type-checkbox] {
+    margin: 16px 0px 16px 8px;
+}
