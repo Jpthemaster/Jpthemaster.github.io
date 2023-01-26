@@ -1,5 +1,5 @@
 * {
-    box-sizing: border box;
+    box-sizing: border-box;
 }
 
 body {
@@ -79,6 +79,6 @@ select {
     font-weight: bold;
     margin-left: 5px;
 }
-#titleBDayPublic input[type-checkbox] {
+#titleBDayPublic input[type=checkbox] {
     margin: 16px 0px 16px 8px;
 }
