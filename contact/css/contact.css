@@ -69,12 +69,15 @@ form input:invalid {
 }
 @keyframes invalidWiggle {
     0%, 100% {
-        transform: translateX(0px)
+        transform: translateX(0px);
+        background-color: pink;
     }
     25% {
-        transform: translateX(-15px)
+        transform: translateX(-15px);
+        background-color: lightpink;
     }
     75% {
-        transform: translateX(15px)
+        transform: translateX(15px);
+        background-color: pink;
     }
 }
