@@ -61,3 +61,20 @@ form select {
     width: 100%;
     margin-bottom: 16px;
 }
+
+input:invalid {
+    border: 3px solid red;
+    background-color: light pink;
+    animation: invalidWiggle 1s infinite;
+}
+@keyframes invalidWiggle {
+    0%, 100% {
+        transform: translateX(0px)
+    }
+    25% {
+        transform: translateX(-15px)
+    }
+    75% {
+        transform: translateX(15px)
+    }
+}

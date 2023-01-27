@@ -18,7 +18,7 @@
                 </p>
             </header>
             <div id="fillOut">
-                <form>
+                <form action="https://getform.io/f/ae83987e-b7f7-4f26-b2a5-f24f91a0a113">
                     <label> What can we help you with?</label>
                     <select name="questiontype">
                             <option value="" disabled selected>How can we help?</option>
@@ -29,9 +29,13 @@
                             <option value="adRemoval">Need a break from the ads</option>
                     </select>
                     <label>Name</label>
-                         <input type="text" name="name">
+                         <input 
+                            type="text"    
+                            name="name" 
+                            minlength="2"
+                        >
                     <label>Email</label>
-                        <input type="text" name="email">
+                        <input type="text" name="email" maxlength="4">
                     <label>Message</label>
                         <textarea name="message" placeholder="Type here..."></textarea>
                     <label> Urgency?</label>
