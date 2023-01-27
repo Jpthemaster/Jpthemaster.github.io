@@ -62,7 +62,7 @@ form select {
     margin-bottom: 16px;
 }
 
-input:invalid {
+form input:invalid {
     border: 3px solid red;
     background-color: pink;
     animation: invalidWiggle 1s infinite;
