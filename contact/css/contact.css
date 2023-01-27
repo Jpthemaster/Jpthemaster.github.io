@@ -64,7 +64,7 @@ form select {
 
 input:invalid {
     border: 3px solid red;
-    background-color: light pink;
+    background-color: pink;
     animation: invalidWiggle 1s infinite;
 }
 @keyframes invalidWiggle {
