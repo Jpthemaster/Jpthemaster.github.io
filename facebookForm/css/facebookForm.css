@@ -38,7 +38,8 @@ header img {
 input[type=text],
 input[type=date],
 select,
-#genderInputs > div {
+#genderInputs > div,
+input[type=submit] {
     padding: 8px;
     margin:4px;
     border: 2px solid #dddddd;
@@ -75,7 +76,8 @@ select,
 #titleBDayPublic input[type=date] {
     width: 100%;
 }
-#titleBDayPublic > div label{
+#titleBDayPublic > div label,
+#genderRadio > label {
     font-size: 12px;
     font-weight: bold;
     margin-left: 5px;
@@ -96,4 +98,29 @@ select,
     display: flex;
     justify-content: space-between;
     flex: 1;
+}
+#fillOutForms p {
+    margin: 12px;
+    font-size: 16px;
+    text-align: left;
+}
+input[type=submit] {
+    background-color: #10a515;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px;
+    margin:4px;
+    border: 2px solid #dddddd;
+    border-radius: 4px;
+    min-width: 175px;
+}
+a {
+    color: #0d77ff;
+    text-decoration: none;
+}
+
+#login {
+    display:block;
+    margin: 24px;
 }
