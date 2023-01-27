@@ -27,22 +27,34 @@
                             id="firstName"
                             type="text"
                             name="firstName"
-                            placeholder="First Name">
+                            placeholder="First Name"
+                            minlength="2"
+                            maxlength="30"
+                            required>
                         <input 
                             id="lastName"
                             type="text"
                             name="lasttName"
-                            placeholder="Last Name">
+                            placeholder="Last Name"
+                            minlength="2"
+                            maxlength="199"
+                            optional>
                         <input 
                             id="phoneORemail"
-                            type="tel"
+                            type="email"
                             name="phoneORemail"
-                            placeholder="Mobile # or Email">
+                            placeholder="Mobile # or Email"
+                            minlength="4"
+                            maxlength="45"
+                            required>
                         <input 
                             id="password"
                             type="password"
                             name="password"
-                            placeholder="New Password">
+                            placeholder="New Password"
+                            minlength="4"
+                            maxlength="100"
+                            required>
                     </div>
                 </div>
                 <div id="fillOutForms">
@@ -60,7 +72,7 @@
                         </div>
                         <div>
                             <label>Birthday</label>
-                                <input type="date" name="birthday">
+                                <input type="date" name="birthday" required>
                         </div>
                         <div>
                             <label>Make Public?</label>
