@@ -37,6 +37,8 @@ header img {
 
 input[type=text],
 input[type=date],
+input[type=password],
+input[type=email],
 select,
 #genderInputs > div,
 input[type=submit] {
@@ -123,4 +125,8 @@ a {
 #login {
     display:block;
     margin: 24px;
+}
+input:invalid {
+    border-color: red;
+    background-color: lightpink;
 }
