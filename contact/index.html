@@ -28,7 +28,7 @@
                             <option value="webDesign">Website Design</option>
                             <option value="adRemoval">Need a break from the ads</option>
                     </select>
-                    <label>Name</label>
+                    <label id="required">Name<span class="red">*</span></label>
                          <input 
                             required
                             type="text"    
@@ -36,10 +36,10 @@
                             minlength="2"
                             placeholder="Your Name"
                         >
-                    <label>Email</label>
+                    <label id="required">Email<span class="red">*</span></label>
                         <input required type="text" name="email" maxlength="4" placeholder="John@Malkivich">
-                    <label>Message</label>
-                        <textarea name="message" placeholder="Type here..."></textarea>
+                    <label>Message<span class="red">*</span></label>
+                        <textarea required name="message" placeholder="Type here..."></textarea>
                     <label> Urgency?</label>
                         <select name="questiontype">
                                 <option value="" disabled selected>!!</option>
@@ -47,7 +47,6 @@
                                 <option value="slow">Business Days</option>
                                 <option value="vSlow">Take your time</option>
                                 <option value="fast">Help</option>
-                                <option value="fast"> </option>
                         </select>
                     <label>Company</label>
                         <select name="questiontype">
