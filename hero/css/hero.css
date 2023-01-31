@@ -25,10 +25,12 @@ body {
 #hero1:hover {
     filter: blur(2px);
 }
+
 p {
     font-size: 32px;
     margin: 48px;
 }
+
 #hero2 {
     height: 100vh;
     background-image: url("../assets/images/bluered.webp");
@@ -48,8 +50,21 @@ p {
     font-size: 60px;
     color: white;
 }
-#hero2 h3 {
+#hero2 h3,
+#hero3 h3 {
     font-family: cursive;
     font-size: 48px;
     Color: white;
+}
+
+#hero3 {
+    background-image: url("../assets/images/blueredwhirl.webp");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+#hero3 h3 {
+    padding-top: 60px;
+    padding-bottom: 30px;
 }

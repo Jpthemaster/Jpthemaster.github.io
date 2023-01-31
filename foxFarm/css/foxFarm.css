@@ -1,0 +1,19 @@
+#heroHeader {
+    background-image: url("../assets/images/foxFamily.webp");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 800px;
+
+}
+#heroHeader h1 {
+    color: black;
+    background-color: white;
+    width: 100%;
+    text-align:center;
+    margin: 0;
+}
