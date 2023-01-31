@@ -2,7 +2,7 @@ body{
     margin: 0;
 }
 
-#heroHeader {
+/* #heroHeader {
     background-image: url("../assets/images/foxFamily.webp");
     background-size: cover;
     background-position: 50% 45%;
@@ -11,6 +11,13 @@ body{
     flex-direction: column;
     height: 800px;
     margin: 0px;
+} */
+#glider {
+    background-image: url("../assets/images/foxFamily.webp");
+    background-size: cover;
+    background-position: 50% 45%;
+    background-attachment: fixed;
+    height: 600px
 }
 nav {
     position:fixed;
