@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+}
+
 #heroHeader {
     background-image: url("../assets/images/foxFamily.webp");
     background-size: cover;
@@ -5,15 +9,30 @@
     background-attachment: fixed;
     display:flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
     height: 800px;
-
+    margin: 0px;
 }
-#heroHeader h1 {
-    color: black;
-    background-color: white;
+nav {
+    position:sticky;
     width: 100%;
-    text-align:center;
-    margin: 0;
+    height: 60px;
+    top:0;
+  }
+nav > ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0px;
+}
+nav > ul > li {
+    padding: 12px;
+    width:100%;
+    color: white;
+    background-color:orange;
+}
+nav a {
+    color: white;
+    font-size: 30px;
+    list-style-type: none;
+    margin-bottom: 0px;
 }
