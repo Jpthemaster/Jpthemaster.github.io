@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+
+#hero1 {
+    background-color: pink;
+    background-image: url("../assets/images/MatrixMix.webp");
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    position: relative;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transition: filter 0.5s;
+}
+#hero1 h1 {
+    color: white;
+    position:absolute;
+    top: 400px;
+}
+#hero1:hover {
+    filter: blur(2px);
+}
