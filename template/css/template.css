@@ -79,3 +79,18 @@ nav a {
 #sideInfoChild2{
     background-color: #FF3B03;
 }
+
+#photo {
+    background-image: url("../assets/images/Zap\ copy.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 200px;
+}
+#photo h1 {
+    font-size: 48px;
+    text-align: center;
+}
