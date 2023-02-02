@@ -1,5 +1,13 @@
 body{
     margin: 0;
+    background-color: black;
+}
+.container{
+    background-color: black;
+    background-image: url(../assets/images/wasser.gif);
+    background-size: cover;
+    background-position: center center;
+    filter:grayscale(50%);
 }
 
 /* #heroHeader {
