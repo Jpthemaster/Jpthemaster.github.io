@@ -86,13 +86,13 @@ nav a {
     background-size: cover;
     color: white;
     display:flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
+    font-family: cursive;
     height: 200px;
 }
-#photo h1 {
+#photo h1{
     font-size: 48px;
-    text-align: center;
 }
 h5 {
     text-align: center;
