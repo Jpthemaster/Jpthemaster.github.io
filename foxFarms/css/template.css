@@ -1,0 +1,105 @@
+body{
+    margin: 0px;
+    background-color: #FFBD03;
+}
+p {
+    color:white;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.container{
+    background-color: #FFBD03;
+    /* background-image: url(../assets/images/wasser.gif); */
+    background-size: cover;
+    background-position: center center;
+    filter:  #FFBD03 50%:
+}
+
+/* #heroHeader {
+    background-image: url("../assets/images/foxFamily.webp");
+    background-size: cover;
+    background-position: 50% 45%;
+    background-attachment: fixed;
+    display:flex;
+    flex-direction: column;
+    height: 800px;
+    margin: 0px;
+} */
+#glider {
+    background-image: url("../assets/images/foxFamily.webp");
+    background-size: cover;
+    background-position: 50% 45%;
+    background-attachment: fixed;
+    height: 600px
+}
+nav {
+    position:fixed;
+    width: 100%;
+    height: 60px;
+    top:0;
+    text-align: center;
+  }
+nav > ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0;
+}
+nav > ul > li {
+    padding: 12px;
+    width:100%;
+    color: white;
+    background-color:#FF8B0B;
+}
+nav a {
+    color: white;
+    font-size: 30px;
+    list-style-type: none;
+    margin-bottom: 0px;
+}
+#box1 {
+    display:flex;
+    Justify-content: center;
+    background-color: #E85802;
+}
+#sideInfo {
+    display: flex;
+    flex-direction: row;
+}
+#sideInfoChild{
+    background-color: #FF3B03;
+}
+#sideInfo2 {
+    display: flex;
+    flex-direction: row-reverse
+}
+#sideInfoChild2{
+    background-color: #FF3B03;
+}
+
+#photo {
+    background-image: url("../assets/images/Zap\ copy.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: cursive;
+    height: 200px;
+}
+#photo h1{
+    font-size: 48px;
+}
+h5 {
+    text-align: center;
+}
+a img {
+    transition: invert 1.5s;
+}
+a:hover img {
+    filter: invert(75%);
+}
