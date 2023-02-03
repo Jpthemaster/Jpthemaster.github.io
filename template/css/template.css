@@ -97,3 +97,9 @@ nav a {
 h5 {
     text-align: center;
 }
+a img {
+    transition: invert 1.5s;
+}
+a:hover img {
+    filter: invert(75%);
+}
