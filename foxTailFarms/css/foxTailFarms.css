@@ -26,7 +26,7 @@ h2 {
     background-size: cover;
     background-position: 50% 45%;
     background-attachment: fixed;
-    height: 600px
+    height: 600px;
 }
 nav {
     position:fixed;
@@ -36,6 +36,7 @@ nav {
     margin: 0px;
     padding; 0px;
     display: flex;
+    z-index: 30;
   }
 nav > ul {
     display: flex;
