@@ -23,16 +23,6 @@ h2 {
     filter: #e1a177 50%:
 }
 
-/* #heroHeader {
-    background-image: url("../assets/images/foxFamily.webp");
-    background-size: cover;
-    background-position: 50% 45%;
-    background-attachment: fixed;
-    display:flex;
-    flex-direction: column;
-    height: 800px;
-    margin: 0px;
-} */
 #glider {
     background-image: url("../assets/images/cornM.jpg");
     background-size: cover;
@@ -48,13 +38,16 @@ nav {
     text-align: center;
     margin: 0px;
     padding; 0px;
+    display: flex;
   }
 nav > ul {
     display: flex;
     justify-content: center;
     list-style-type: none;
-    padding: 0px;
+    padding: 166px;
     margin: 0;
+    background-color:#FFf;
+    width:100%;
 }
 nav > ul > li {
     padding: 12px;
