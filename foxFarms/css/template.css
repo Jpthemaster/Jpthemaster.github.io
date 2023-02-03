@@ -1,20 +1,20 @@
 body{
     margin: 0px;
-    background-color: #FFBD03;
+    background-color: #e1a177;
 }
 p {
-    color:white;
+    color: #fff;
     text-align: center;
 }
 h2 {
     text-align: center;
 }
 .container{
-    background-color: #FFBD03;
+    background-color: #e1a177;
     /* background-image: url(../assets/images/wasser.gif); */
     background-size: cover;
     background-position: center center;
-    filter:  #FFBD03 50%:
+    filter: #e1a177; 50%:
 }
 
 /* #heroHeader {
@@ -51,11 +51,10 @@ nav > ul {
 nav > ul > li {
     padding: 12px;
     width:100%;
-    color: white;
-    background-color:#FF8B0B;
+    background-color:#FFf;
 }
 nav a {
-    color: white;
+    color: #000;
     font-size: 30px;
     list-style-type: none;
     margin-bottom: 0px;
@@ -63,21 +62,23 @@ nav a {
 #box1 {
     display:flex;
     Justify-content: center;
-    background-color: #E85802;
+    background-color: #e1a177;
 }
 #sideInfo {
     display: flex;
     flex-direction: row;
 }
 #sideInfoChild{
-    background-color: #FF3B03;
+    background-color: #e1a177;
+    width: 50%;
 }
 #sideInfo2 {
     display: flex;
     flex-direction: row-reverse
 }
 #sideInfoChild2{
-    background-color: #FF3B03;
+    background-color: #e1a177;
+    width: 50%;
 }
 
 #photo {
