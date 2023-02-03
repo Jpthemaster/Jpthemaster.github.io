@@ -2,10 +2,8 @@ body{
     margin: 0px;
     background-color: #e1a177;
 }
-#top h1 {
-    background-color: #e1a177;
-    margin:0;
-    Padding:0;
+#logo img {
+    height: 200px;
 }
 p {
     color: #fff;
