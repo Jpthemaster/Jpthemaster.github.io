@@ -15,11 +15,19 @@ body{
 }
 p {
     color: #fff;
-    font-size: 36px;
+    font-size: 24px;
     text-align: center;
     padding-left: 48px;
     padding-right: 48px;
     font-family: 'Montserrat', sans-serif;
+}
+.title {
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
+    padding-left: 48px;
+    padding-right: 48px;
+    font-family: 'Lobster', cursive;
 }
 h2 {
     font-size: 48px;
