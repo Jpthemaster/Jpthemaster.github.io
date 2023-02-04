@@ -120,15 +120,16 @@ nav a {
 }
 
 #photo {
-    background-image: url("../assets/images/Zap\ copy.jpg");
+    background-image: url("../assets/images/veggies.jpg");
     background-attachment: fixed;
     background-size: cover;
+    background-position: 25% 65%;
     color: white;
     display:flex;
     justify-content: center;
     align-items: flex-start;
     font-family: 'Lobster', cursive;
-    height: 200px;
+    height: 500px;
 }
 #photo h1{
     font-size: 48px;
