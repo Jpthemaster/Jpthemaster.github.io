@@ -37,7 +37,7 @@ h2 {
 }
 
 #glider {
-    background-image: url("../assets/images/cornM.jpg");
+    background-image: url("../assets/images/CornM.jpg");
     background-size: cover;
     background-position: 50% 45%;
     background-attachment: fixed;
@@ -49,10 +49,10 @@ nav {
     top:0;
     text-align: center;
     margin: 0px;
-    padding; 20px 0px 20px 0px;
+    padding: 20px 0px 20px 0px;
     display: flex;
     align-items: center;
-    z-index: 100px;
+    z-index: 100;
     background-color:#FFf;
     font-family: 'Lobster', cursive;
   }
@@ -83,10 +83,10 @@ nav a {
     display:flex;
     Justify-content: center;
     background-color: #e1a177;
-    margin:
 }
 .box1Child h2 {
     font-family: 'Lobster', cursive;
+    font-size: 60px;
 }
 #sideInfo {
     display: flex;
@@ -103,7 +103,6 @@ nav a {
 #sideInfo2 {
     display: flex;
     flex-direction: row-reverse;
-    margin: 48x;
 }
 #image2 {
     display:flex;
