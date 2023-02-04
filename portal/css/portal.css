@@ -1,0 +1,11 @@
+#photo {
+    background-image: url("../assets/images/Zap\ copy\ 2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: cursive;
+    height: 200px;
+}

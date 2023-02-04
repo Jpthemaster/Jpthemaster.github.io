@@ -1,10 +1,15 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
 body{
     margin: 0px;
     padding: 0px;
     background-color: #e1a177;
 }
 #logo img {
-    height: 200px;
+    height: 110px;
+    margin-left
 }
 p {
     color: #fff;
@@ -34,9 +39,11 @@ nav {
     top:0;
     text-align: center;
     margin: 0px;
-    padding; 0px;
+    padding; 20px 0px 20px 0px;
     display: flex;
-    z-index: 30;
+    align-items: center;
+    z-index: 100px;
+    background-color:#FFf;
   }
 nav > ul {
     display: flex;
@@ -45,8 +52,9 @@ nav > ul {
     margin: 0;
     background-color:#FFf;
     width:100%;
+    background-color:#FFf;
 }
-nav > ul > li {
+nav ul li {
     padding: 12px;
     width:100%;
     background-color:#FFf;
