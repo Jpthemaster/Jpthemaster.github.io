@@ -77,6 +77,9 @@ nav a {
     background-color: #e1a177;
     margin:
 }
+.box1Child h2 {
+    font-family: 'Lobster', cursive;
+}
 #sideInfo {
     display: flex;
     flex-direction: row;
@@ -111,7 +114,7 @@ nav a {
     display:flex;
     justify-content: center;
     align-items: flex-start;
-    font-family: cursive;
+    font-family: 'Lobster', cursive;
     height: 200px;
 }
 #photo h1{
