@@ -10,9 +10,6 @@ body{
     height: 110px;
     margin-left: 10px;
 }
-#navy {
-    width: 100%;
-}
 p {
     color: #fff;
     font-size: 24px;
@@ -44,7 +41,7 @@ h2 {
     background-size: cover;
     background-position: 50% 45%;
     background-attachment: fixed;
-    height: 600px;
+    height: 900px;
 }
 nav {
     position:fixed;
@@ -72,6 +69,9 @@ nav ul li {
     padding: 12px;
     width:100%;
     background-color:#FFf;
+}
+#topInfo {
+    top: 15px;
 }
 nav a {
     color: #000;
