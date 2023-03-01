@@ -6,10 +6,13 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 200vh;
     background: radial-gradient(pink, hotpink);
 }
 #Graduation {
     text-align: center;
     color: white;
+}
+#seconds {
+    color:blue;
 }

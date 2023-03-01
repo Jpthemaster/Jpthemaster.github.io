@@ -21,7 +21,9 @@ function convertToDaysLeft(milliseconds) {
   }
 
   function formatCountdownText(days, hours, minutes, seconds) {
-    return `${days}d ${hours}h ${minutes}m ${seconds}s left`;
+    return `${days}d ${hours}h ${minutes}m 
+        <span id="seconds">${seconds}s</span> left
+    `;
   }
 
   //start here
