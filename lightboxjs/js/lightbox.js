@@ -17,3 +17,4 @@ function closeLightbox() {
 }
 
 lightboxCloser.onclick = closeLightbox;
+lightboxBackground.onclick = closeLightbox;
