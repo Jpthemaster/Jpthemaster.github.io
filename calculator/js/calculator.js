@@ -20,3 +20,27 @@ function displaySixDividedByTwo() {
 function displayTenModulusThree() {
     result.innerHTML = 10 % 3;
 }
+
+function displayMultiply() {
+    let input1 = document.getElementById("input1");
+    let input2 = document.getElementById("input2");
+    result.innerHTML = input1.value * input2.value;
+}
+
+function displayDivide() {
+    let input1 = document.getElementById("input1");
+    let input2 = document.getElementById("input2");
+    result.innerHTML = input1.value / input2.value;
+}
+
+function displayAdd() {
+    let input1 = document.getElementById("input1");
+    let input2 = document.getElementById("input2");
+    result.innerHTML = input1.value + input2.value;
+}
+
+function displaySubtract() {
+    let input1 = document.getElementById("input1");
+    let input2 = document.getElementById("input2");
+    result.innerHTML = input1.value - input2.value;
+}
