@@ -33,10 +33,10 @@ function displayDivide() {
     result.innerHTML = input1.value / input2.value;
 }
 
-function displayAdd() {
+function displayAddition() {
     let input1 = document.getElementById("input1");
     let input2 = document.getElementById("input2");
-    result.innerHTML = input1.value + input2.value;
+    result.innerHTML = parseInt(input1.value) + parseInt(input2.value);
 }
 
 function displaySubtract() {
