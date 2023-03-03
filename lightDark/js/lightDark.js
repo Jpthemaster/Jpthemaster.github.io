@@ -1,5 +1,10 @@
 let mode = "light";
 
+let storedMode = localStorage.getItem("mode");
+if (storedMode != null) {
+    mode = storedMode;
+}
+
 const body = document.getElementById("body");
 const header = document.getElementById("header");
 const button = document.getElementById("modeToggle");
@@ -14,21 +19,51 @@ function displayMode() {
         header.style.backgroundColor = "black";
         body.style.backgroundColor = "white";
         body.style.color= "black";
-    } else if (mode == "dark) {
+    } else if (mode == "dark") {
         header.style.backgroundColor = "white";
         body.style.backgroundColor = "black";
         body.style.color= "white";
+    } else if (mode == "sepia") {
+        header.style.backgroundColor = "white";
+        body.style.backgroundColor = "#70421";
+        body.style.color= "white";
+    }
+}
+function displayModeV2() {
+    switch (mode) {
+        case "light":
+            header.style.backgroundColor = "black";
+            body.style.backgroundColor = "white";
+            body.style.color= "black";
+            break;
+        case "dark":
+            header.style.backgroundColor = "white";
+            body.style.backgroundColor = "black";
+            body.style.color= "white";
+            break;
+        case "sepia":
+            header.style.backgroundColor = "white";
+            body.style.backgroundColor = "black";
+            body.style.color= "white";
+                break;
+        default:
+            break;
     }
 }
 
+
 displayMode();
 
-function togglemode() {
+function toggleMode() {
     if (mode == "light") {
-        mode= "dark";
+        mode = "dark";
     } else if ( mode == "dark") {
         mode = "light";
     }
+    else if ( mode == "sepia") {
+        mode = "light";
+    }
+    localStorage.setItem("mode", mode);
     displayMode();
 }
 
