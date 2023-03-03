@@ -25,6 +25,9 @@ document.addEventListener("mousemove", function(e) {
     let x = e.pageX;
     let y = e.pageY;
 
+    console.log("x:" + x)
+    console.log("y:" + y)
+
     follower.style.top = y + "px";
     follower.style.left = x + "px";
 });
