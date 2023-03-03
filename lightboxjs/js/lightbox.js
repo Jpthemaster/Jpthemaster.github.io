@@ -8,14 +8,14 @@ function openLightbox() {
     lightbox.src = this.src;
 }
 
-let coffeeImage = document.getElementById("coffeeImage");
-coffeeImage.onclick = openLightbox;
-let coffeeImage1 = document.getElementById("coffeeImage1");
-coffeeImage1.onclick = openLightbox;
-let coffeeImage2 = document.getElementById("coffeeImage2");
-coffeeImage2.onclick = openLightbox;
-let coffeeImage3 = document.getElementById("coffeeImage3");
-coffeeImage3.onclick = openLightbox;
+let grim = document.getElementById("grim");
+grim.onclick = openLightbox;
+let welcome = document.getElementById("welcome");
+welcome.onclick = openLightbox;
+let extract = document.getElementById("extract");
+extract.onclick = openLightbox;
+let rainbow = document.getElementById("rainbow");
+rainbow.onclick = openLightbox;
 let coffeeImage4 = document.getElementById("coffeeImage4");
 coffeeImage4.onclick = openLightbox;
 let coffeeImage5 = document.getElementById("coffeeImage5");
