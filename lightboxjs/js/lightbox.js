@@ -36,5 +36,17 @@ function closeLightbox() {
     lightbox.src = "";
 }
 
-lightboxCloser.onclick = closeLightbox;
-lightboxBackground.onclick = closeLightbox;
+// lightboxCloser.onclick = closeLightbox;
+// lightboxBackground.onclick = closeLightbox;
+
+let galleryImages = document.getElementsByClassName('galleryImage');
+    for (let i = 0; i < galleryImages.length; i++) {
+        let galleryImage = galleryImages[i];
+        galleryImage.onclick = openLightbox;
+    }
+
+    let closers = document.getElementsByClassName('closer');
+        for (let i = 0; i < closers.length; i++) {
+            let closer = closers[i];
+            closer.onclick = closeLightbox;
+        }
