@@ -1,0 +1,21 @@
+#topHeader {
+    text-align: center;
+}
+#NEW {
+    background-color:red;
+    border-radius: 20px;
+    color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#price {
+    font-weight: bold;
+}
+#LearnMore {
+    text-decoration: none;
+}
+#arrow {
+    height: 30px
+}
