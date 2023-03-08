@@ -1,5 +1,6 @@
 body {
-    margin:0px;
+    margin: 0px;
+    font-family: san-serif;
 }
 #topHeader {
     text-align: center;
@@ -26,23 +27,29 @@ body {
 
 #hero {
     background-color: pink;
-    background-image: url("../images/Hero.jpg");
+    background-image: 
+        radial-gradient(transparent, black),
+        url("../images/Hero.jpg");
     background-size: cover;
-    box-shadow: inset 0 0 700px black;
+    box-shadow: inset 0 0 700px 100px black;
     height: 90vh;
     margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content; center;
 }
 
 #logobar {
-    margin: 10px;
-    display: flex;
-}
-#logoBox { s
-    margin-right: auto;
+    margin: 0px;
 }
 #logo {
     height: 45px;
     width: 167px;
+    margin: 20px;
+    display: inline-block;
+}
+#logoButtons { 
+    margin: 0px;
 }
 #logoG {
     fill: red;
@@ -51,10 +58,20 @@ body {
     color: white;
     background-color:black;
     border-style: solid 10px white;
-    margin: 10px;
+    font-size: 16px;
+    padding: 12px 24px;
 }
-#signIn {
+.signIn {
     color: white;
     background-color: red;
-    padding: 5px;
+    padding: 12px 24px;
+}
+#middle {
+    color: white;
+    max-width: 640px;
+    margin: 0 auto;
+}
+#middle input[type="email"] {
+    height: 48px;
+    width: 600px;
 }
