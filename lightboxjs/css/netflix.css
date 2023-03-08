@@ -40,9 +40,12 @@ body {
     /* justify-content: center; */
 }
 
-#logobar {
+#logoBar {
     margin: 0px;
-    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 36px;
 }
 #svg {
     height: 45px;
@@ -51,7 +54,6 @@ body {
 #logo {
     height: 45px;
     width: 167px;
-    margin: 30px;
 }
 #logoG {
     fill: red;
@@ -80,7 +82,7 @@ body {
     color: white;
     max-width: 640px;
     margin: 0 auto;
-    flex: 2;
+    margin-top: 700px;
 }
 #middle input[type="email"] {
     height: 48px;
