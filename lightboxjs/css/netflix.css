@@ -37,33 +37,30 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 #logobar {
     margin: 0px;
-    top: 0px;
-    flex: 1;
-    width: 100%;
+    /* width: 100%; */
 }
 #svg {
     height: 45px;
     width: 167px;
-    margin-right: auto;
-    display: inline-block;
 }
 #logo {
     height: 45px;
     width: 167px;
-    margin-right: auto;
-    display: inline-block;
-}
-#logoButtons { 
-    margin: 0px;
-    display: inline-block;
+    margin: 30px;
 }
 #logoG {
     fill: red;
+}
+
+#logoButtons { 
+    margin-top: 0px;
+    margin-left: 1000px;
+    top: 0px;
 }
 #language {
     color: white;
@@ -77,18 +74,15 @@ body {
     background-color: red;
     padding: 12px 24px;
 }
+
+
 #middle {
     color: white;
-    flex: 2;
-    align-items: center;
-    justify-content: center;
     max-width: 640px;
     margin: 0 auto;
+    flex: 2;
 }
 #middle input[type="email"] {
     height: 48px;
     width: 600px;
-}
-form {
-
 }
