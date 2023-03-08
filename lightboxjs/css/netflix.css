@@ -42,15 +42,25 @@ body {
 
 #logobar {
     margin: 0px;
+    top: 0px;
+    flex: 1;
+    width: 100%;
+}
+#svg {
+    height: 45px;
+    width: 167px;
+    margin-right: auto;
+    display: inline-block;
 }
 #logo {
     height: 45px;
     width: 167px;
-    margin: 20px;
+    margin-right: auto;
     display: inline-block;
 }
 #logoButtons { 
     margin: 0px;
+    display: inline-block;
 }
 #logoG {
     fill: red;
@@ -69,10 +79,16 @@ body {
 }
 #middle {
     color: white;
+    flex: 2;
+    align-items: center;
+    justify-content: center;
     max-width: 640px;
     margin: 0 auto;
 }
 #middle input[type="email"] {
     height: 48px;
     width: 600px;
+}
+form {
+
 }
