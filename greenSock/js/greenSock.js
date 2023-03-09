@@ -12,7 +12,7 @@ gsap.from(".headline", {
     opacity: 0,
     y: 300,
     stagger: 0.3,
-));
+});
 
 gsap.from("p", {
     duration: 3,
