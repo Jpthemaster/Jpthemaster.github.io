@@ -1,10 +1,10 @@
 body {
     margin: 0;
+    background-color: #010101;
     color: rgb(190, 189, 189);
 }
 
 header {
-    background-color: #010101;
     display: flex;
 }
 #logo {
@@ -13,6 +13,7 @@ header {
 }
 header #logo {
     margin-right: auto;
+    padding: 12px;
 }
 
 #hero {
@@ -22,4 +23,18 @@ header #logo {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    margin: 0 auto;
+}
+#gallery img {
+    height: 200px;
+    object-fit: cover;
+    flex: 1 0 auto;
+    margin: 12px;
 }
