@@ -117,3 +117,43 @@ footer {
     margin-top: 12px;
     text-decoration: none;
 }
+
+@media screen and (max-width: 480px) {
+    #gallery {
+        width: 800px;
+    }
+    #gallery img {
+        width: 200px;
+    }
+    #hero {
+        height: 400px;
+    }
+    #middleContent {
+        height: 400px;
+    }
+    #logo3 {
+        width: 300px;
+    }
+    #first {
+       font-size: 12px
+    }
+    #email {
+        width: 100px;
+    }
+    #dMore {
+        width: 300px;
+        height: auto;
+    }
+    footer {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        height: 800px;
+        align-items: center;
+        text-align: center;
+    }
+    .lineType {
+        display: flex;
+        flex-direction: column;
+        margin: 24px
+    }
+}
