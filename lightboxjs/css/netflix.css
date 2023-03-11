@@ -99,3 +99,17 @@ body {
     height: 48px;
     width: 120px;
 }
+
+@media screen and (max-width: 480px) {
+    #middle h1 {
+            font-size: 12px;
+        }
+    #hero {
+        flex-direction: column;
+    }
+    #middle input[type="email"] {
+        height: 48px;
+        width: 100%;
+        margin-right:
+    }
+}
