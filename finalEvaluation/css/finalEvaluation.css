@@ -73,6 +73,7 @@ h3 {
     height: auto;
 }
 
+
 #gallery {
     display: flex;
     flex-wrap: wrap;
@@ -85,4 +86,34 @@ h3 {
     margin: 12px;
     flex: 1 0 auto;
     object-fit: cover;
+}
+
+
+
+footer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    Justify-content: center;
+}
+#logoFooter {
+    display: flex;
+    justify-content: center;
+}
+#madeYaLook {
+    width: 100px;
+    height: auto;
+    align-items: center;
+}
+.lineType {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 24px
+}
+.footerType {
+    color:rgb(190, 189, 189);
+    margin-top: 12px;
+    text-decoration: none;
 }
